@@ -34,3 +34,6 @@ class Solution(object):
             else:
                stack.append(int(c))
         return stack[0]
+    
+#Time complexity: O(n), iterate through the stack at most once
+#Space complexity: O(n), we have a stack.
